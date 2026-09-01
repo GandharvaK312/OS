@@ -1,0 +1,78 @@
+# OS / Systems Roadmap
+
+Single source of truth. Update the checkboxes as you go instead of re-deriving the plan from scratch every few weeks.
+
+---
+
+## Current Status (as of Sept 2026)
+
+**Active right now:**
+- [ ] LeetCode problem-solving in systems-style C
+- [ ] COA (Hamacher) — 3rd sem course
+
+**Paused / deferred:**
+- Embedded systems (ESP32) — not active for now
+- Crafting Interpreters / jlox / Oryn Lang — terminated for now, OS takes priority over compiler design
+- malloc family (malloc/calloc/realloc/free) — deferred until fundamentals are stronger or a break-in project is done
+
+**Deciding:**
+- [ ] Pick a small "break in" kernel/OS project — candidates: garbage collector in C, or another TBD small project
+- Once chosen, do that FIRST, then circle back to malloc family with stronger fundamentals
+
+---
+
+## Phase 0 — Foundations (now)
+
+- [ ] Finish COA (Hamacher) — especially memory hierarchy + virtual memory sections, since these feed directly into OS
+- [ ] nand2tetris Part I (projects 1-6: gates → ALU → CPU → assembler) — run parallel to COA, patches the exact "shaky registers/counters" gap from top-down Hamacher explanations
+- [ ] Keep LeetCode in C, bias toward memory-layout-relevant problems (in-place algorithms, pointer manipulation) over pure algorithmic puzzles
+- [ ] Pick and execute the "break in" project (GC in C, or alternative) — this replaces malloc as the immediate hands-on entry point
+- [ ] nand2tetris Part II — SKIP (redundant with future compiler work, deprioritized anyway)
+- [ ] CS61C — SKIP as a full course (redundant with COA + OSTEP/xv6 + hands-on C work). Only pull individual lectures later if a specific concept isn't clicking from other sources.
+
+## Phase 1 — C mastery consolidation (ongoing, parallel to Phase 0)
+
+- [ ] Finish KN King
+- [ ] Beej's Guide to C (short, sharper on pointers/memory than King)
+- [ ] Read x86-64 assembly at a basic level (not write it) — use Compiler Explorer (godbolt.org)
+- [ ] Get fluent in `gdb` — non-negotiable for OS work
+
+## Phase 2 — OS theory foundation (next semester, when OS course starts)
+
+- [ ] OSTEP (Operating Systems: Three Easy Pieces) — primary text, free online
+  - [ ] Virtualization: processes, CPU scheduling
+  - [ ] Virtualization: memory (address spaces, paging, segmentation, TLBs)
+  - [ ] Concurrency: threads, locks, condition variables, deadlock
+  - [ ] Persistence: file systems, disks, RAID
+- [ ] Silberschatz — secondary/reference, already on GATE book list, useful for coursework alignment
+- [ ] Do OSTEP's homework simulators (scheduling, paging) alongside reading
+
+## Phase 3 — Build a real (tiny) OS kernel
+
+Pick a track:
+
+**Guided track (recommended given timeline pressure):**
+- [ ] xv6 source read-through
+- [ ] MIT 6.828/6.1810 (Operating System Engineering) labs — syscalls, scheduler, virtual memory, basic file system, shell
+
+**Harder mode (optional deep-dive later, not the main track):**
+- [ ] OSDev wiki "Bare Bones" — bootloader, real mode → protected mode, GDT/IDT, paging by hand
+
+## Phase 4 — Specialize (trading OS / unikernel direction, final year)
+
+- [ ] Unikernel study: Unikraft (most engineering-accessible), MirageOS, OSv
+- [ ] Network programming: Beej's Guide to Network Programming → then DPDK docs, io_uring
+- [ ] Lock-free data structures: "The Art of Multiprocessor Programming" (Herlihy & Shavit), esp. memory ordering / atomics
+- [ ] NUMA-aware memory (Linux kernel docs, papers — learned in-context once deep in Phase 4)
+
+## Deferred / Later
+
+- [ ] malloc family (malloc/calloc/realloc/free) — full implementation, revisit after break-in project + stronger fundamentals
+- [ ] Resume jlox / Crafting Interpreters — no timeline, compiler design deprioritized vs OS
+- [ ] Resume ESP32 / embedded work — no timeline
+
+---
+
+### Notes
+- Rough timeline: Phase 0/1 this semester → Phase 2 next semester (parallel with OS coursework) → Phase 3 over summer break + following semester (don't rush, it's the meatiest chunk) → Phase 4 final year.
+- Don't skip straight to Phase 4 material (DPDK, unikernels) without Phase 3's xv6-level grounding — it'll show in interviews.
