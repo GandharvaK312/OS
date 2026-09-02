@@ -10,14 +10,8 @@ Single source of truth. Update the checkboxes as you go instead of re-deriving t
 - [ ] LeetCode problem-solving in systems-style C
 - [ ] COA (Hamacher) — 3rd sem course
 
-**Paused / deferred:**
-- Embedded systems (ESP32) — not active for now
-- Crafting Interpreters / jlox / Oryn Lang — terminated for now, OS takes priority over compiler design
-- malloc family (malloc/calloc/realloc/free) — deferred until fundamentals are stronger or a break-in project is done
-
 **Deciding:**
-- [ ] Pick a small "break in" kernel/OS project — candidates: garbage collector in C, or another TBD small project
-- Once chosen, do that FIRST, then circle back to malloc family with stronger fundamentals
+- [ ] a small "break in" kernel/OS project garbage collector in C
 
 ---
 
@@ -26,9 +20,7 @@ Single source of truth. Update the checkboxes as you go instead of re-deriving t
 - [ ] Finish COA (Hamacher) — especially memory hierarchy + virtual memory sections, since these feed directly into OS
 - [ ] nand2tetris Part I (projects 1-6: gates → ALU → CPU → assembler) — run parallel to COA, patches the exact "shaky registers/counters" gap from top-down Hamacher explanations
 - [ ] Keep LeetCode in C, bias toward memory-layout-relevant problems (in-place algorithms, pointer manipulation) over pure algorithmic puzzles
-- [ ] Pick and execute the "break in" project (GC in C, or alternative) — this replaces malloc as the immediate hands-on entry point
-- [ ] nand2tetris Part II — SKIP (redundant with future compiler work, deprioritized anyway)
-- [ ] CS61C — SKIP as a full course (redundant with COA + OSTEP/xv6 + hands-on C work). Only pull individual lectures later if a specific concept isn't clicking from other sources.
+- [ ] Garbage Collector in C 
 
 ## Phase 1 — C mastery consolidation (ongoing, parallel to Phase 0)
 
@@ -68,8 +60,6 @@ Pick a track:
 ## Deferred / Later
 
 - [ ] malloc family (malloc/calloc/realloc/free) — full implementation, revisit after break-in project + stronger fundamentals
-- [ ] Resume jlox / Crafting Interpreters — no timeline, compiler design deprioritized vs OS
-- [ ] Resume ESP32 / embedded work — no timeline
 
 ---
 
