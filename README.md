@@ -7,20 +7,24 @@ Single source of truth. Update the checkboxes as you go instead of re-deriving t
 ## Current Status (as of Sept 2026)
 
 **Active right now:**
-- [ ] LeetCode problem-solving in systems-style C
-- [ ] COA (Hamacher) — 3rd sem course
 
-**Deciding:**
+- [ ] [LeetCode problem-solving in systems-style C](https://github.com/gandharvak312/The-C-Programming-Language)
+
+- [ ] [Computer Organization and Architecture](./resources/Computer Organization and Embedded systems Carl Hamacher.pdf)
+
 - [ ] a small "break in" kernel/OS project garbage collector in C
 
 ---
 
 ## Phase 0 — Foundations (now)
+  
+- [ ] [Computer Organization and Architecture](./resources/Computer Organization and Embedded systems Carl Hamacher.pdf)
 
-- [ ] Finish COA (Hamacher) — especially memory hierarchy + virtual memory sections, since these feed directly into OS
+- [ ] [LeetCode problem-solving in systems-style C](https://github.com/gandharvak312/The-C-Programming-Language)
+
+- [ ] Garbage Collector in C
+
 - [ ] nand2tetris Part I (projects 1-6: gates → ALU → CPU → assembler) — run parallel to COA, patches the exact "shaky registers/counters" gap from top-down Hamacher explanations
-- [ ] Keep LeetCode in C, bias toward memory-layout-relevant problems (in-place algorithms, pointer manipulation) over pure algorithmic puzzles
-- [ ] Garbage Collector in C 
 
 ## Phase 1 — C mastery consolidation (ongoing, parallel to Phase 0)
 
