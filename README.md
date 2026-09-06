@@ -10,7 +10,7 @@ Single source of truth. Update the checkboxes as you go instead of re-deriving t
 
 - [LeetCode problem-solving in systems-style C](https://github.com/gandharvak312/The-C-Programming-Language)
 
-- [Computer Organization and Architecture](./resources/Computer Organization and Embedded systems Carl Hamacher.pdf)
+- [Computer Organization and Architecture](./resources/Computer%20Organization%20and%20Embedded%20systems%20Carl%20Hamacher.pdf)
 
 - [A memory manager in C (Heap manager + garbage collector)](https://github.com/gandharvak312/memory-manager-c)
 
@@ -18,7 +18,7 @@ Single source of truth. Update the checkboxes as you go instead of re-deriving t
 
 ## Phase 0 — Foundations (now)
   
-- [ ] [Computer Organization and Architecture](./resources/Computer Organization and Embedded systems Carl Hamacher.pdf)
+- [ ] [Computer Organization and Architecture](./resources/Computer%20Organization%20and%20Embedded%20systems%20Carl%20Hamacher.pdf)
 
 - [ ] [LeetCode problem-solving in systems-style C](https://github.com/gandharvak312/The-C-Programming-Language)
 
