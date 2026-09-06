@@ -8,11 +8,11 @@ Single source of truth. Update the checkboxes as you go instead of re-deriving t
 
 **Active right now:**
 
-- [ ] [LeetCode problem-solving in systems-style C](https://github.com/gandharvak312/The-C-Programming-Language)
+- [LeetCode problem-solving in systems-style C](https://github.com/gandharvak312/The-C-Programming-Language)
 
-- [ ] [Computer Organization and Architecture](./resources/Computer Organization and Embedded systems Carl Hamacher.pdf)
+- [Computer Organization and Architecture](./resources/Computer Organization and Embedded systems Carl Hamacher.pdf)
 
-- [ ] a small "break in" kernel/OS project garbage collector in C
+- [A memory manager in C (Heap manager + garbage collector)](https://github.com/gandharvak312/memory-manager-c)
 
 ---
 
@@ -22,7 +22,7 @@ Single source of truth. Update the checkboxes as you go instead of re-deriving t
 
 - [ ] [LeetCode problem-solving in systems-style C](https://github.com/gandharvak312/The-C-Programming-Language)
 
-- [ ] Garbage Collector in C
+- [ ] [A memory manager in C (Heap manager + garbage collector)](https://github.com/gandharvak312/memory-manager-c)
 
 - [ ] nand2tetris Part I (projects 1-6: gates → ALU → CPU → assembler) — run parallel to COA, patches the exact "shaky registers/counters" gap from top-down Hamacher explanations
 
