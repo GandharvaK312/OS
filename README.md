@@ -1,8 +1,12 @@
 # OS / Systems Roadmap
 
-Single source of truth. Update the checkboxes as you go instead of re-deriving the plan from scratch every few weeks.
-
 ---
+
+## Phase 0 - Foundations
+
+## Completed projects
+
+- [x] [A memory manager in C (Heap manager + garbage collector)](https://github.com/gandharvak312/memory-manager-c)
 
 ## Current Status (as of Sept 2026)
 
@@ -12,19 +16,9 @@ Single source of truth. Update the checkboxes as you go instead of re-deriving t
 
 - [Computer Organization and Architecture](./resources/Computer%20Organization%20and%20Embedded%20systems%20Carl%20Hamacher.pdf)
 
-- [A memory manager in C (Heap manager + garbage collector)](https://github.com/gandharvak312/memory-manager-c)
+- [nand2tetris](./resources/The%20Elements%20of%20Computing%20Systems%20_%20Building%20a%20Modern%20Computer%20from%20First%20Principles,%202nd%20edition,%202021.pdf)
 
 ---
-
-## Phase 0 — Foundations (now)
-  
-- [ ] [Computer Organization and Architecture](./resources/Computer%20Organization%20and%20Embedded%20systems%20Carl%20Hamacher.pdf)
-
-- [ ] [LeetCode problem-solving in systems-style C](https://github.com/gandharvak312/The-C-Programming-Language)
-
-- [ ] [A memory manager in C (Heap manager + garbage collector)](https://github.com/gandharvak312/memory-manager-c)
-
-- [ ] nand2tetris Part I (projects 1-6: gates → ALU → CPU → assembler) — run parallel to COA, patches the exact "shaky registers/counters" gap from top-down Hamacher explanations
 
 ## Phase 1 — C mastery consolidation (ongoing, parallel to Phase 0)
 
@@ -61,12 +55,3 @@ Pick a track:
 - [ ] Lock-free data structures: "The Art of Multiprocessor Programming" (Herlihy & Shavit), esp. memory ordering / atomics
 - [ ] NUMA-aware memory (Linux kernel docs, papers — learned in-context once deep in Phase 4)
 
-## Deferred / Later
-
-- [ ] malloc family (malloc/calloc/realloc/free) — full implementation, revisit after break-in project + stronger fundamentals
-
----
-
-### Notes
-- Rough timeline: Phase 0/1 this semester → Phase 2 next semester (parallel with OS coursework) → Phase 3 over summer break + following semester (don't rush, it's the meatiest chunk) → Phase 4 final year.
-- Don't skip straight to Phase 4 material (DPDK, unikernels) without Phase 3's xv6-level grounding — it'll show in interviews.
