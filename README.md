@@ -10,13 +10,13 @@
 
 **Active right now:**
 
-- [ ] "A Tour of C++" (Stroustrup) — fast, dense overview of modern C++ from someone who already knows C
+- [Tour of C++](./resources/tour_of_cpp.pdf)
 - [Computer Organization and Architecture](./resources/computer_organization_and_embedded_systems.pdf)
 - [nand2tetris](./resources/nand_2_tetris.pdf)
 
 ---
 
-## Phase 1 — C mastery consolidation (ongoing, parallel to Phase 0)
+## Phase 1 — C mastery && CP begins
 
 - [ ] Finish KN King
 - [ ] Read x86-64 assembly at a basic level (not write it) — use Compiler Explorer (godbolt.org)
@@ -31,7 +31,7 @@
 - [ ] Port a couple of existing C projects (allocator, a nand2tetris component) to modern C++ as a forcing function
 - [ ] (CP practice above now serves as the ongoing "keep C++ warm" habit into Phase 2-4)
 
-## Phase 2 — OS theory foundation (next semester, when OS course starts)
+## Phase 2 — OS theory foundation
 
 - [ ] OSTEP (Operating Systems: Three Easy Pieces) — primary text, free online
   - [ ] Virtualization: processes, CPU scheduling
