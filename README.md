@@ -1,40 +1,35 @@
 # OS / Systems Roadmap
 
----
-
 ## Phase 0 - Foundations
 
-## Completed projects
+### Completed projects
 
 - [x] [A memory manager in C (Heap manager + garbage collector)](https://github.com/gandharvak312/memory-manager-c)
 
-## Current Status (as of Sept 2026)
+### Current Status (as of Sept 2026)
 
 **Active right now:**
 
-- [LeetCode problem-solving in systems-style C](https://github.com/gandharvak312/The-C-Programming-Language)
-
+- [ ] "A Tour of C++" (Stroustrup) — fast, dense overview of modern C++ from someone who already knows C
 - [Computer Organization and Architecture](./resources/Computer%20Organization%20and%20Embedded%20systems%20Carl%20Hamacher.pdf)
-
 - [nand2tetris](./resources/The%20Elements%20of%20Computing%20Systems%20_%20Building%20a%20Modern%20Computer%20from%20First%20Principles,%202nd%20edition,%202021.pdf)
-
-- [ ] Start rated Codeforces contests alongside LeetCode — external, comparable signal (Candidate Master+) beyond archive-grinding
 
 ---
 
 ## Phase 1 — C mastery consolidation (ongoing, parallel to Phase 0)
 
 - [ ] Finish KN King
-- [ ] Beej's Guide to C (short, sharper on pointers/memory than King)
 - [ ] Read x86-64 assembly at a basic level (not write it) — use Compiler Explorer (godbolt.org)
 - [ ] Get fluent in `gdb` — non-negotiable for OS work
+- [ ] Competitive Programming- C++, STL-based starts(follow striver roadmap)
 
-## Phase 1.5 — C++ transition (once C fundamentals are solid, before/parallel to Phase 2)
+## Phase 1.5 — More focus on C++ && pointers in C
 
-- [ ] "A Tour of C++" (Stroustrup) — fast, dense overview of modern C++ from someone who already knows C
+- [ ] Beej's Guide to C (short, sharper on pointers/memory than King)
 - [ ] Core practice: RAII, move semantics, smart pointers, templates basics
 - [ ] "Effective Modern C++" (Scott Meyers) — idiomatic modern C++ (C++11/14 practices that still matter)
 - [ ] Port a couple of existing C projects (allocator, a nand2tetris component) to modern C++ as a forcing function
+- [ ] (CP practice above now serves as the ongoing "keep C++ warm" habit into Phase 2-4)
 
 ## Phase 2 — OS theory foundation (next semester, when OS course starts)
 
@@ -64,4 +59,4 @@ Pick a track:
 - [ ] Lock-free data structures: "The Art of Multiprocessor Programming" (Herlihy & Shavit), esp. memory ordering / atomics — checkpoint: implement a lock-free SPSC queue
 - [ ] Networking/latency measurement work, building on the DPDK/io_uring study above
 - [ ] NUMA-aware memory (Linux kernel docs, papers — learned in-context once deep in Phase 4)
-- [ ] **Capstone: order book implementation** — ties lock-free structures + networking + low-latency design into one artifact defensible line-by-line in interviews
+- [ ] **Capstone: order book implementation (C++)** — ties lock-free structures + networking + low-latency design into one artifact defensible line-by-line in interviews
