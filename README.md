@@ -11,8 +11,8 @@
 **Active right now:**
 
 - [ ] "A Tour of C++" (Stroustrup) — fast, dense overview of modern C++ from someone who already knows C
-- [Computer Organization and Architecture](./resources/Computer%20Organization%20and%20Embedded%20systems%20Carl%20Hamacher.pdf)
-- [nand2tetris](./resources/The%20Elements%20of%20Computing%20Systems%20_%20Building%20a%20Modern%20Computer%20from%20First%20Principles,%202nd%20edition,%202021.pdf)
+- [Computer Organization and Architecture](./resources/computer_organization_and_embedded_systems.pdf)
+- [nand2tetris](./resources/nand_2_tetris.pdf)
 
 ---
 
