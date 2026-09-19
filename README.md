@@ -12,7 +12,6 @@
 
 - [Tour of C++](./resources/tour_of_cpp.pdf)
 - [Computer Organization and Architecture](./resources/computer_organization_and_embedded_systems.pdf)
-- [nand2tetris](./resources/nand_2_tetris.pdf)
 
 ---
 
